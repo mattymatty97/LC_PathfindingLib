@@ -875,7 +875,7 @@ internal struct SmartPathfindingJob : IJob
 
         while (true)
         {
-            builder.AppendFormat(" - distance: {0:0.###}", pathCost);
+            builder.AppendFormat(" - distance: {0,10:0.###}\t", pathCost);
             if (currIndex > GoalVertexIndex)
             {
                 builder.AppendFormat(" ??? ({0})\n", currIndex);

@@ -214,7 +214,7 @@ internal sealed class SmartPathJobDataContainer : IDisposable
                     }
 
 #if SMART_PATHFINDING_DEBUG
-                    linkNames.Add("🛗" + floor.ToString());
+                    linkNames.Add(floor.ToString());
                     linkDestinationNames.Add(floor.ToString());
 #endif
                 }
@@ -241,7 +241,7 @@ internal sealed class SmartPathJobDataContainer : IDisposable
                 }
 
 #if SMART_PATHFINDING_DEBUG
-                linkNames.Add("🛗" + elevator.ToString());
+                linkNames.Add(elevator.ToString());
 #endif
             }
         }
